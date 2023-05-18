@@ -95,3 +95,10 @@ body, html{
     transform: translate(-50%, -100%);
   }
 }
+
+@media (max-height: 490px){
+  .model{
+    width: 85%;
+    height: 80%;
+  }
+}
