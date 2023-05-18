@@ -12,9 +12,3 @@ for(let i = 0; i < buttons.length; i++){
         buttonActive = buttons[i];
     })
 }
-
-const modelViewer = document.querySelector('model-style');
-
-modelViewer.addEventListener('load', () => {
-    alert('Модель успешно загружена');
-});
